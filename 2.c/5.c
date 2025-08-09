@@ -25,12 +25,11 @@ int main()
             }
         }
         
-        if(a==0)
+        if(a!=0)
         {
-            printf("%d is unique ",arr[j]);
             c++;
         }
     }
-    printf("\n Number of unique elements is %d\n",c);
+    printf("\n Number of non unique elements is %d\n",c);
     return 0;
    }
